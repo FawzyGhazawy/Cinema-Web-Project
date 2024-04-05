@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">961Cinema</string>
+    <string name="action_movies">Movies</string>
+    <string name="action_shows">Shows</string>
+
+    <string name="title_activity_main">Shows</string>
+    <string name="title_activity_beverages">beverages</string>
+    <string name="title_activity_book">Book</string>
+    <string name="title_activity_booking">Details</string>
+
+
+    <string name="action_save">Save</string>
+    <string name="action_load">Load</string>
+    <string name="action_messages">button</string>
+
+    <string name="action_signup">Sign Up</string>
+    <string name="action_login">Log In</string>
+
+
+    <string name="tv_pass">Password: </string>
+    <string name="tv_name">Email: </string>
+    <string name="tv_ip">Server IP: </string>
+    <string name="h_ip">IP address</string>
+    <string name="h_name">Email@example.com</string>
+    <string name="h_pass">Password</string>
+    <string name="tv_or">- OR -</string>
+
+    <string name="bt_details">Details</string>
+    <string name="tvt">Title:</string>
+    <string name="tvg">Genre:</string>
+    <string name="tvd">Date:</string>
+    <string name="bt_delete">Delete</string>
+    <string name="bt_add">Add</string>
+
+    <string name="welcome">Welcome to SpeedRun</string>
+
+
+    <string name="title_activity_login">Login</string>
+
+    <string name="title">Title:</string>
+    <string name="category">Category:</string>
+    <string name="duration">Duration:</string>
+    <string name="release_date">Release Date:</string>
+    <string name="language">Language:</string>
+    <string name="poster">Poster:</string>
+    <string name="trailer">Trailer:</string>
+    <string name="rate">Rate:</string>
+    <string name="date">Date:</string>
+    <string name="start_time">Start Time:</string>
+    <string name="hall">Hall:</string>
+    <string name="ticket_price">Ticket Price:</string>
+
+    <string name="bt_book">Book</string>
+    <string name="title_activity_movies">Movies</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="action_book">Book Now</string>
+    <string name="tv_tickets">Number of tickets:</string>
+    <string name="tv_pay">Payment Method:</string>
+    <string name="rb_cash">Cash</string>
+    <string name="rb_credit">Credit Card</string>
+    <string name="cb_student">I\'m a student</string>
+
+
+</resources>

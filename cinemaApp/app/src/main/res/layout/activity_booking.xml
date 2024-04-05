@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_color"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/title_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="5dp"
+
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/category_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/white"
+            android:text="@string/category" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/duration_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/duration" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/release_date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/release_date" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/release_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/language_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/language" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/poster_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/poster" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/poster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/trailer_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/trailer" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/trailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/rate_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/rate" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/date_label"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/date" />
+
+        <TextView
+            android:id="@+id/date"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/start_time_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/start_time" />
+
+        <TextView
+            android:id="@+id/start_time"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/hall_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/hall" />
+
+        <TextView
+            android:id="@+id/hall"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/ticket_price_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/ticket_price" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/ticket_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gold"
+            android:onClick="booknow"
+            android:text="@string/action_book" />
+
+    </TableRow>
+
+</TableLayout>
